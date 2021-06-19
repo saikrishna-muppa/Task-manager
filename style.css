@@ -1,0 +1,70 @@
+body{
+    margin: 50px;
+}
+.add-btn{
+    background-color: violet;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: medium;
+    border:none
+}
+.remove-btn{
+    border-color: violet;
+    color: violet;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: medium;
+    background-color: white;
+}
+.task-btn{
+    background-color: violet;
+    color: white;
+    padding: 6px 10px; 
+    border:none
+}
+.input-number{
+    width: 5%;
+    border-color: violet;
+
+}
+.inner-container{
+    padding: 100px;
+}
+#myProgress {
+    width: 96%;
+    background-color: #ddd;
+    border:2px solid #f00be4;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  #myBar {
+    width: 0%;
+    height: 30px;
+    
+    
+    background-color: #f00be4;
+  }
+  .waiting{
+      width: 96%;
+    border:2px solid #f00be4;
+    color: black;
+    height: 30px;
+    text-align: left;
+
+  }
+  .fa-trash:before {
+    content: "\f1f8";
+    font-size: x-large;
+}
+.waiting-header{
+    display: flex;
+    justify-content: space-between;
+}
+.trash{
+    border: 5px solid violet;
+    width: 24px;
+    border-radius: 4px;
+    text-align: center;
+}
